@@ -10,7 +10,6 @@ export default function Home() {
   return (
     
     <main className={styles.main}>
-    <Header></Header>
     <HomePage></HomePage>
     <About></About>
     <Programs></Programs>
