@@ -1,17 +1,18 @@
+"use client"
 import EmbedMap from "../EmbedMap/page"
-// import { useState } from "react";
+import { useState } from "react";
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Contact() {
 
-  // const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
     const handleSubmit=()=>{
       console.log("form submitted")
     }
 
     return (
-      <main >
+      <main id="Contact">
        <div className='Contact  d-inline-flex p-2'>
         <div>
           <div>Contact</div>
@@ -31,7 +32,7 @@ export default function Contact() {
         <div className="Form">
              
      
-      {/* {!isFormSubmitted ? ( */}
+      {!isFormSubmitted ? (
         <form action="https://formsubmit.co/singhdhamivishal@gmail.com" method="POST"className="app__footer-form app__flex">
           <div className="app__flex">
             <input className="p-text" type="text" placeholder="Your Name" name="name" //value={username} 
@@ -54,13 +55,13 @@ export default function Contact() {
             Subscribe
           </button>
         </form>
-     {/*  ) : (
-       //   <div>
-      //     <h3 className="head-text">
-      //       Thank  for Subscribing!
-      //     </h3>
-      //   </div>
-      // )} */}
+      ) : (
+         <div>
+          <h3 className="head-text">
+            Thank  for Subscribing!
+          </h3>
+        </div>
+      )}
 
         </div>
       </div>

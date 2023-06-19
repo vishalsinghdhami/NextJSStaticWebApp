@@ -105,3 +105,12 @@ a {
     color-scheme: dark;
   }
 } */
+
+main{
+  min-height:6vh;
+
+}
+html,body{
+  scroll-behavior: smooth;
+  
+}
