@@ -6,7 +6,7 @@ export default function Header() {
   
  
       <li>
-        <Link legacyBehavior href="/HomePage">
+        <Link legacyBehavior href="/">
           <a>Home</a>
         </Link>
       </li>

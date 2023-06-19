@@ -66,7 +66,7 @@ export default function Contact() {
       </div>
       
        </div>
-       <div className="footer d-inline-flex p-2">
+       <div className="footer ">
       <h5>Y-HUB</h5> @2023 ALL RIGHTS RESERVED
        </div>
       </main>
